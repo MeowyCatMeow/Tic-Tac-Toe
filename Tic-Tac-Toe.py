@@ -55,6 +55,6 @@ def move():
             elif state == "end":
                 break
             counter += 1
-            print(threes)
+            # print(threes)
 print_matrix()
 move()  
