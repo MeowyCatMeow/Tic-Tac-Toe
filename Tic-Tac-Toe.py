@@ -1,4 +1,9 @@
-# for the while loop the better way is while " " in li hence while matrix doesn't have empty cells
+
+"""
+Tic Tac Toe
+https://hyperskill.org/projects/73?track=2
+https://imgur.com/a/tRBHWCR
+"""
 li =[" " for x in range(9)]
 threes = [li[:3], li[3:6], li[6:], li[0:9:3], li[1:9:3], li[2:9:3], li[0:9:4], li[2:7:2]]
 def print_matrix():
